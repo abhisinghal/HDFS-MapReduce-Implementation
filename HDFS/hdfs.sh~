@@ -1,0 +1,20 @@
+if test -e name_node_config
+	then
+		x=1
+else
+	touch name_node_config
+fi
+
+
+if test -e block_ip_temp
+	then
+		x=1
+else
+	touch block_ip_temp
+fi
+
+
+
+
+
+
